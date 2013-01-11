@@ -25,6 +25,7 @@ $(call inherit-product-if-exists, vendor/widevine/$(LOCAL_STEM))
 
 $(call inherit-product-if-exists, vendor/unknown/$(LOCAL_STEM))
 
+# Vendor files for SomethingJelly
 $(call inherit-product-if-exists, vendor/sjelly/$(LOCAL_STEM))
 
-PRODUCT_RESTRICT_VENDOR_FILES := owner
+#PRODUCT_RESTRICT_VENDOR_FILES := owner
